@@ -82,4 +82,25 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     window.addEventListener('scroll', highlightNavOnScroll);
+
+    // ----------------------------------------------------
+    // 4. FORMULÁRIO DE CONTATO (abre o e-mail do usuário)
+    // ----------------------------------------------------
+    const contactForm = document.getElementById('contato-form');
+    if (contactForm) {
+        contactForm.addEventListener('submit', (event) => {
+            event.preventDefault();
+
+            const nome = document.getElementById('nome').value.trim();
+            const email = document.getElementById('email').value.trim();
+            const mensagem = document.getElementById('mensagem').value.trim();
+
+            const subject = encodeURIComponent(`Contato pelo portfólio - ${nome}`);
+            const body = encodeURIComponent(
+                `Nome: ${nome}\nE-mail: ${email}\n\nMensagem:\n${mensagem}`
+            );
+
+            window.location.href = `mailto:chiaradiadiogo205@gmail.com?subject=${subject}&body=${body}`;
+        });
+    }
 });
