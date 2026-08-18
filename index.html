@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Currículo & Portfólio</title>
+    <meta name="description" content="Portfólio e Currículo Profissional - Desenvolvedor(a)">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    
+    <!-- Estilo Principal -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Cabeçalho & Navegação -->
+    <header class="header">
+        <nav class="nav-container">
+            <a href="#home" class="logo">
+                <span class="logo-bracket">&lt;</span>
+                <span class="logo-text">Dev</span>
+                <span class="logo-bracket">/&gt;</span>
+            </a>
+
+            <div class="nav-menu" id="nav-menu">
+                <ul class="nav-list">
+                    <li><a href="#home" class="nav-link active">Início</a></li>
+                    <li><a href="#sobre" class="nav-link">Sobre</a></li>
+                    <li><a href="#habilidades" class="nav-link">Habilidades</a></li>
+                    <li><a href="#experiencia" class="nav-link">Trajetória</a></li>
+                    <li><a href="#projetos" class="nav-link">Projetos</a></li>
+                    <li><a href="#contato" class="nav-link">Contato</a></li>
+                </ul>
+            </div>
+
+            <div class="nav-actions">
+                <button class="theme-toggle" id="theme-toggle" aria-label="Alternar tema">
+                    <i class="fa-solid fa-moon"></i>
+                </button>
+                <button class="mobile-toggle" id="mobile-toggle" aria-label="Abrir menu">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Seção Hero (Início) -->
+        <section id="home" class="hero section">
+            <div class="container hero-container">
+                <div class="hero-content">
+                    <div class="badge">
+                        <span class="badge-dot"></span>
+                        <span>Disponível para novos projetos</span>
+                    </div>
+                    <h1 class="hero-title">Olá, eu sou <span class="highlight">Seu Nome</span></h1>
+                    <h2 class="hero-subtitle">Desenvolvedor(a) Software & Web</h2>
+                    <p class="hero-description">
+                        Transformando ideias em código limpo, funcional e de alto impacto. Especializado(a) em criar experiências digitais modernas e eficientes.
+                    </p>
+                    
+                    <div class="hero-buttons">
+                        <a href="#contato" class="btn btn-primary">
+                            <i class="fa-solid fa-paper-plane"></i> Entrar em Contato
+                        </a>
+                        <a href="#projetos" class="btn btn-secondary">
+                            <i class="fa-solid fa-code"></i> Ver Projetos
+                        </a>
+                    </div>
+
+                    <div class="hero-socials">
+                        <a href="https://github.com" target="_blank" class="social-link" title="GitHub">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                        <a href="https://linkedin.com" target="_blank" class="social-link" title="LinkedIn">
+                            <i class="fa-brands fa-linkedin-in"></i>
+                        </a>
+                        <a href="mailto:seuemail@exemplo.com" class="social-link" title="E-mail">
+                            <i class="fa-solid fa-envelope"></i>
+                        </a>
+                        <a href="https://wa.me/" target="_blank" class="social-link" title="WhatsApp">
+                            <i class="fa-brands fa-whatsapp"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="hero-image-wrapper">
+                    <div class="hero-image-card">
+                        <div class="avatar-placeholder">
+                            <i class="fa-solid fa-user-astronaut"></i>
+                        </div>
+                        <div class="floating-badge badge-1">
+                            <i class="fa-solid fa-laptop-code"></i>
+                            <div>
+                                <h4>Full Stack</h4>
+                                <p>Web Development</p>
+                            </div>
+                        </div>
+                        <div class="floating-badge badge-2">
+                            <i class="fa-solid fa-rocket"></i>
+                            <div>
+                                <h4>Alta Performance</h4>
+                                <p>Código Limpo</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção Sobre Mim -->
+        <section id="sobre" class="sobre section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">Conheça-me</span>
+                    <h2 class="section-title">Sobre Mim</h2>
+                </div>
+
+                <div class="sobre-grid">
+                    <div class="sobre-text">
+                        <p>
+                            Sou entusiasta de tecnologia e desenvolvimento de software. Tenho paixão por aprender novas tecnologias, resolver problemas complexos e criar soluções que facilitem o dia a dia das pessoas.
+                        </p>
+                        <p>
+                            Busco constantemente aperfeiçoar minhas habilidades em lógica de programação, arquitetura de sistemas e boas práticas de desenvolvimento de código.
+                        </p>
+
+                        <div class="info-cards">
+                            <div class="info-card">
+                                <i class="fa-solid fa-location-dot"></i>
+                                <div>
+                                    <h5>Localização</h5>
+                                    <p>São Paulo, Brasil</p>
+                                </div>
+                            </div>
+                            <div class="info-card">
+                                <i class="fa-solid fa-graduation-cap"></i>
+                                <div>
+                                    <h5>Formação</h5>
+                                    <p>Análise / Ciência da Computação</p>
+                                </div>
+                            </div>
+                            <div class="info-card">
+                                <i class="fa-solid fa-language"></i>
+                                <div>
+                                    <h5>Idiomas</h5>
+                                    <p>Português (Nativo), Inglês</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção Habilidades -->
+        <section id="habilidades" class="habilidades section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">Tech Stack</span>
+                    <h2 class="section-title">Minhas Habilidades</h2>
+                </div>
+
+                <div class="skills-grid">
+                    <!-- Front-end -->
+                    <div class="skill-category">
+                        <div class="category-header">
+                            <i class="fa-solid fa-desktop"></i>
+                            <h3>Front-End</h3>
+                        </div>
+                        <div class="skills-list">
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span>HTML5 & CSS3</span>
+                                    <span>90%</span>
+                                </div>
+                                <div class="skill-bar"><div class="skill-progress" style="width: 90%;"></div></div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span>JavaScript (ES6+)</span>
+                                    <span>80%</span>
+                                </div>
+                                <div class="skill-bar"><div class="skill-progress" style="width: 80%;"></div></div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span>React / Vue</span>
+                                    <span>70%</span>
+                                </div>
+                                <div class="skill-bar"><div class="skill-progress" style="width: 70%;"></div></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Back-end -->
+                    <div class="skill-category">
+                        <div class="category-header">
+                            <i class="fa-solid fa-server"></i>
+                            <h3>Back-End & BD</h3>
+                        </div>
+                        <div class="skills-list">
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span>Python / Node.js</span>
+                                    <span>75%</span>
+                                </div>
+                                <div class="skill-bar"><div class="skill-progress" style="width: 75%;"></div></div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span>SQL / Bancos de Dados</span>
+                                    <span>70%</span>
+                                </div>
+                                <div class="skill-bar"><div class="skill-progress" style="width: 70%;"></div></div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span>APIs RESTful</span>
+                                    <span>80%</span>
+                                </div>
+                                <div class="skill-bar"><div class="skill-progress" style="width: 80%;"></div></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Ferramentas -->
+                    <div class="skill-category">
+                        <div class="category-header">
+                            <i class="fa-solid fa-screwdriver-wrench"></i>
+                            <h3>Ferramentas & Outros</h3>
+                        </div>
+                        <div class="skills-list">
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span>Git & GitHub</span>
+                                    <span>85%</span>
+                                </div>
+                                <div class="skill-bar"><div class="skill-progress" style="width: 85%;"></div></div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span>VS Code & Ferramentas</span>
+                                    <span>90%</span>
+                                </div>
+                                <div class="skill-bar"><div class="skill-progress" style="width: 90%;"></div></div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span>UI/UX Design Básico</span>
+                                    <span>65%</span>
+                                </div>
+                                <div class="skill-bar"><div class="skill-progress" style="width: 65%;"></div></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção Trajetória / Experiência & Educação -->
+        <section id="experiencia" class="experiencia section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">Carreira & Estudos</span>
+                    <h2 class="section-title">Minha Trajetória</h2>
+                </div>
+
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date">2024 - Atual</div>
+                        <div class="timeline-content">
+                            <h3>Estudante / Desenvolvedor(a)</h3>
+                            <span class="timeline-sub">Projetos Acadêmicos e Pessoais</span>
+                            <p>Desenvolvimento de aplicações web, APIs e automações utilizando HTML, CSS, JavaScript, Python e Git.</p>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date">2023 - 2024</div>
+                        <div class="timeline-content">
+                            <h3>Cursos & Certificações</h3>
+                            <span class="timeline-sub">Plataformas Online & Cursos Livres</span>
+                            <p>Especialização em Desenvolvimento Web, Lógica de Programação, Estrutura de Dados e controle de versão com Git/GitHub.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção Projetos -->
+        <section id="projetos" class="projetos section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">Portfólio</span>
+                    <h2 class="section-title">Meus Projetos</h2>
+                </div>
+
+                <div class="projects-grid">
+                    <!-- Projeto 1 -->
+                    <div class="project-card">
+                        <div class="project-img">
+                            <i class="fa-solid fa-wallet"></i>
+                        </div>
+                        <div class="project-content">
+                            <div class="project-tags">
+                                <span>Python</span>
+                                <span>SQLite</span>
+                                <span>Tkinter</span>
+                            </div>
+                            <h3>Sistema de Controle Financeiro</h3>
+                            <p>Aplicativo desktop para gerenciamento e controle de gastos diários com relatórios e gráficos intuitivos.</p>
+                            <div class="project-links">
+                                <a href="https://github.com" target="_blank" class="project-link">
+                                    <i class="fa-brands fa-github"></i> Código
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Projeto 2 -->
+                    <div class="project-card">
+                        <div class="project-img">
+                            <i class="fa-solid fa-globe"></i>
+                        </div>
+                        <div class="project-content">
+                            <div class="project-tags">
+                                <span>HTML5</span>
+                                <span>CSS3</span>
+                                <span>JavaScript</span>
+                            </div>
+                            <h3>Website Interativo</h3>
+                            <p>Plataforma web responsiva criada com componentes reutilizáveis, design elegante e suporte a modo escuro.</p>
+                            <div class="project-links">
+                                <a href="https://github.com" target="_blank" class="project-link">
+                                    <i class="fa-brands fa-github"></i> Código
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Projeto 3 -->
+                    <div class="project-card">
+                        <div class="project-img">
+                            <i class="fa-solid fa-bolt"></i>
+                        </div>
+                        <div class="project-content">
+                            <div class="project-tags">
+                                <span>C++</span>
+                                <span>Lógica</span>
+                                <span>Algoritmos</span>
+                            </div>
+                            <h3>Sistemas de Automação & Lógica</h3>
+                            <p>Algoritmos desenvolvidos para resolução de problemas de decisão, repetição e otimização de dados.</p>
+                            <div class="project-links">
+                                <a href="https://github.com" target="_blank" class="project-link">
+                                    <i class="fa-brands fa-github"></i> Código
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção Contato -->
+        <section id="contato" class="contato section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">Fale Comigo</span>
+                    <h2 class="section-title">Entre em Contato</h2>
+                </div>
+
+                <div class="contato-grid">
+                    <div class="contato-info">
+                        <h3>Vamos conversar!</h3>
+                        <p>Estou disponível para novas oportunidades, colaborações em projetos ou apenas para trocar uma ideia sobre tecnologia.</p>
+
+                        <div class="contato-cards">
+                            <div class="contato-card">
+                                <i class="fa-solid fa-envelope"></i>
+                                <div>
+                                    <span>E-mail</span>
+                                    <strong>seuemail@exemplo.com</strong>
+                                </div>
+                            </div>
+                            <div class="contato-card">
+                                <i class="fa-brands fa-linkedin"></i>
+                                <div>
+                                    <span>LinkedIn</span>
+                                    <strong>/in/seu-perfil</strong>
+                                </div>
+                            </div>
+                            <div class="contato-card">
+                                <i class="fa-brands fa-github"></i>
+                                <div>
+                                    <span>GitHub</span>
+                                    <strong>/seu-usuario</strong>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <form class="contato-form" id="contato-form" onsubmit="event.preventDefault(); alert('Mensagem enviada com sucesso!');">
+                        <div class="form-group">
+                            <label for="nome">Seu Nome</label>
+                            <input type="text" id="nome" placeholder="Digite seu nome" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Seu E-mail</label>
+                            <input type="email" id="email" placeholder="nome@exemplo.com" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="mensagem">Mensagem</label>
+                            <textarea id="mensagem" rows="5" placeholder="Escreva sua mensagem..." required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-full">
+                            <i class="fa-solid fa-paper-plane"></i> Enviar Mensagem
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Rodapé -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <p>&copy; 2026 Seu Nome. Desenvolvido com HTML, CSS e JS.</p>
+            <div class="footer-socials">
+                <a href="https://github.com" target="_blank"><i class="fa-brands fa-github"></i></a>
+                <a href="https://linkedin.com" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Script Principal -->
+    <script src="script.js"></script>
+</body>
+</html>
